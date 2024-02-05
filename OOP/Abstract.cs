@@ -41,7 +41,7 @@ public abstract class Canine
 
 public class Dog : Canine
 {
-    List<string> RealBreeds = new List<string> { "Pug", "Doberman", "Husky", "Maltese"};
+    List<string> RealBreeds = new List<string> { "Pug", "Doberman", "Husky", "Maltese"}; 
     public Dog(string myBreed, string myColour, int myAge) : base(myBreed, myColour, myAge)
     {
 
